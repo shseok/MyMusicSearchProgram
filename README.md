@@ -22,11 +22,23 @@
 ## 실행 방법
 
 ```
-$ git clone https://git.ajou.ac.kr/julie0005/my-favorite-musics.git
+$ git clone https://github.com/shseok/MyMusicSearchProgram.git
 $ cd my-favorite-musics
 $ cd server
 $ npm install
 $ node app.js
+```
+
+## 실행 방법 with Docker
+
+```
+1. dockerfile이 있는 경로(server directory내부)에서 docker build ~ => 이미지 생성
+2. docker run ~ => 이미지의 컨테이너 생성 및 실행 (port : 3000 or 5000 ...)
+3. myfavoritemusic-master->server에서 npm install
+4. node app.js => 서버실행
+4. NCP IP(3000,5000)로 접속 시도
+
+*저의 경우는 NCP로 활용하였습니다. NCP로 굳이 안하셔도 됩니다.
 ```
 
 ## TroubleShooting
