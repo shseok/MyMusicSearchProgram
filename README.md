@@ -53,4 +53,6 @@ $ node app.js
 - Favorite 탭에서도 infinite scroll 적용해보기
 - 태그에 대한 확장성있는 설계
 
+## Demo 👇
+
 ![demo](demo.gif)
