@@ -36,9 +36,16 @@ $ node app.js
 2. docker run ~ => 이미지의 컨테이너 생성 및 실행 (port : 3000 or 5000 ...)
 3. myfavoritemusic-master->server에서 npm install
 4. node app.js => 서버실행
-4. NCP IP(3000,5000)로 접속 시도
+5. NCP IP(3000,5000)로 접속 시도
 
 *저의 경우는 NCP로 활용하였습니다. NCP로 굳이 안하셔도 됩니다.
+```
+
+## 주의사항
+
+```
+1.server directory내부에 firebase.js 와 firebaseKey.json(자신의 firebase 키) file 작성
+2.server directory내부의 app.js에서 billboard-api의 headers가 요구하는 host와 key가 필요
 ```
 
 ## TroubleShooting
